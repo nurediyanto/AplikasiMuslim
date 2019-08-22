@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="koding.web.aplikasimuslim">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DoaSetelahWudhu"></activity>
+        <activity android:name=".DoaSetelahAdzan" />
+        <activity android:name=".DoaMasukToilet" />
+        <activity android:name=".DoaMudahMenghafal" />
+        <activity android:name=".DoaSetelahBelajar" />
+        <activity android:name=".DoaSebelumBelajar" />
+        <activity android:name=".Doa" />
+        <activity android:name=".Halal" />
+        <activity android:name=".JadwalSholat" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
